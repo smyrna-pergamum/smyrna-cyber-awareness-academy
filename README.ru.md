@@ -1,20 +1,43 @@
-# Академия Smyrna Cyber
+<h1 align="center">Академия кибербезопасности Smyrna</h1>
 
-Многоязычная платформа по кибербезопасности: 28 практических уроков, разборы ситуаций, тесты, отслеживание прогресса, значки и сертификат.
+<p align="center">
+  Многоязычная академия: 28 уроков, разборы ситуаций и тесты.<br>
+  Учитесь в браузере, отслеживайте прогресс и получите сертификат.
+</p>
 
-## Языки приложения
+<p align="center">
+  <a href="https://github.com/smyrna-pergamum/smyrna-cyber-awareness-academy/releases/latest"><img src="https://img.shields.io/github/v/release/smyrna-pergamum/smyrna-cyber-awareness-academy?color=4f7ce8&label=release" alt="Последний выпуск"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/smyrna-pergamum/smyrna-cyber-awareness-academy?color=4f7ce8" alt="Лицензия MIT"></a>
+  <img src="https://img.shields.io/badge/runs%20in-Chrome%20%7C%20Edge%20%7C%20Firefox-1b2130" alt="Chrome, Edge и Firefox">
+  <img src="https://img.shields.io/badge/works-offline-1b2130" alt="Работает офлайн">
+</p>
 
-Интерфейс, уроки, учебные цели, описания модулей, вопросы тестов, пояснения к ответам и обучающие разборы доступны на турецком, английском, немецком, французском, испанском, арабском и русском языках.
+<p align="center">
+  <a href="https://smyrna-pergamum.github.io/smyrna-cyber-awareness-academy/"><b>▶ Открыть онлайн</b></a>
+  &nbsp;·&nbsp; <a href="https://github.com/smyrna-pergamum/smyrna-cyber-awareness-academy/releases/latest"><b>⬇ Последняя версия</b></a>
+  &nbsp;·&nbsp; <a href="#возможности">Возможности</a>
+  &nbsp;·&nbsp; <a href="#быстрый-старт">Быстрый старт</a>
+</p>
 
-## Локальный запуск
+![Главная страница академии Smyrna](docs/screenshot-academy.png)
 
-Откройте `index.html` в современном браузере. Сборка и сервер не нужны. Прогресс сохраняется в локальном хранилище браузера.
+## Быстрый старт
 
-## Онлайн-версия
+1. **Онлайн:** откройте [академию](https://smyrna-pergamum.github.io/smyrna-cyber-awareness-academy/).
+2. **Офлайн:** [скачайте ZIP с исходным кодом](https://github.com/smyrna-pergamum/smyrna-cyber-awareness-academy/archive/refs/heads/main.zip), распакуйте и откройте `index.html`.
+3. Выберите язык, создайте профиль или продолжите как гость. Прочитайте урок и разбор ситуации, затем пройдите тест.
 
-[Открыть Smyrna Cyber Academy](https://smyrna-pergamum.github.io/smyrna-cyber-awareness-academy/)
+Приложение работает офлайн. При подключении загружается шрифт Inter из Google Fonts; без сети используются системные шрифты. Прогресс сохраняется в браузере.
 
-## Последний выпуск
+## Возможности
 
-[Примечания к выпуску v1.0.0](CHANGELOG.md).
+- 28 уроков с целями, объяснениями, разбором ситуации и отдельным тестом.
+- Профили, XP, значки и результаты, сохранённые в браузере.
+- Сертификат после завершения уроков и идеального результата во всех тестах.
+- Турецкий, английский, немецкий, французский, испанский, арабский и русский.
+- Адаптивный интерфейс, светлая и тёмная темы, RTL для арабского.
+
+## Версия и лицензия
+
+[Версия v1.0.0](https://github.com/smyrna-pergamum/smyrna-cyber-awareness-academy/releases/tag/v1.0.0) · [История выпусков](CHANGELOG.md) · [Лицензия MIT](LICENSE)
 
