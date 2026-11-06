@@ -1,42 +1,39 @@
 # Smyrna Cyber Academy
 
-A multilingual, browser-based cybersecurity awareness academy with 28 lessons, case studies, quizzes, badges, progress tracking, and a completion certificate.
+A multilingual cybersecurity awareness academy with 28 practical lessons, case studies, quizzes, progress tracking, badges, and a completion certificate.
 
-## Languages
+## Read this guide in your language
 
-The interface, lesson summaries, learning objectives, lesson modules, quiz questions, answer feedback, and teaching-style case studies are available in seven languages:
+- [Türkçe](README.tr.md)
+- [English](README.en.md)
+- [Deutsch](README.de.md)
+- [Français](README.fr.md)
+- [Español](README.es.md)
+- [العربية](README.ar.md)
+- [Русский](README.ru.md)
 
-- Türkçe (Turkish)
-- English
-- Deutsch (German)
-- Français (French)
-- Español (Spanish)
-- العربية (Arabic)
-- Русский (Russian)
+## Languages in the app
+
+The app provides its interface, lessons, learning objectives, module descriptions, quiz questions, answer feedback, and teaching case studies in Turkish, English, German, French, Spanish, Arabic, and Russian.
 
 ## Run locally
 
-Open `index.html` in a modern browser. No build step or server is required. Progress is stored in the browser's local storage.
+Open `index.html` in a modern browser. No build step or server is required. Learning progress is saved in that browser's local storage.
 
-## Publish with GitHub Pages
+## Live demo
 
-In the repository settings, open **Pages**, select **Deploy from a branch**, choose `main` and `/ (root)`, and save. GitHub Pages will serve `index.html` and the `assets/` directory.
+[Open Smyrna Cyber Academy](https://smyrna-pergamum.github.io/smyrna-cyber-awareness-academy/)
 
 ## Project files
 
 - `index.html` — application shell
 - `assets/app.js` — interactions, quizzes, progress, and certificates
 - `assets/data.js` — training content and shared lesson templates
-- `assets/i18n/` — translations for German, French, Spanish, Arabic, and Russian
-- `assets/styles.css` — responsive visual styles
+- `assets/i18n/` — German, French, Spanish, Arabic, and Russian translations
+- `assets/styles.css` — responsive styles
+- `CHANGELOG.md` — release history
 
----
+## Latest release
 
-# Smyrna Cyber Akademisi
-
-28 ders, vaka çalışmaları, quizler, rozetler, ilerleme takibi ve tamamlama sertifikası sunan çok dilli siber güvenlik farkındalık uygulaması.
-
-Arayüz, ders özetleri, öğrenme hedefleri, ders modülleri, quiz soruları, cevap geri bildirimleri ve öğretici vaka çalışmaları Türkçe, İngilizce, Almanca, Fransızca, İspanyolca, Arapça ve Rusça olarak sunulur.
-
-Uygulamayı çalıştırmak için `index.html` dosyasını güncel bir tarayıcıda açın. Derleme adımı veya sunucu gerekmez; ilerleme tarayıcının yerel depolamasında tutulur.
+See [v1.0.0 release notes](CHANGELOG.md).
 
