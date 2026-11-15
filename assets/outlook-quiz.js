@@ -34,9 +34,10 @@
     ]
   };
   function makeQuestions(locale) {
-    var prompt = locale === "tr" ? "Bu iletiyi nasıl sınıflandırırsın?" : "How would you classify this message?";
+    
     var labels = locale === "tr" ? ["Oltalama / şüpheli", "Güvenli / meşru"] : ["Phishing / suspicious", "Safe / legitimate"];
-    return cases[locale].map(function (c) {
+    return cases[locale].map(function (c, index) {
+      var prompt = locale === "tr" ? "Vaka " + (index + 1) + ": Bu iletiyi nasıl sınıflandırırsın?" : "Case " + (index + 1) + ": How would you classify this message?";
       return [prompt, labels, c.answer, c.explain, { outlook: c }];
     });
   }
@@ -100,6 +101,7 @@
   }
   function showBreak() {
     var name = profileName();
+    setStep(5);
     body.dataset.partReady = "true";
     body.innerHTML = '<div class="outlook-part-break"><span class="outlook-break-kicker">' + esc(lang() === "tr" ? "Bölüm 1 tamamlandı" : "Part one complete") + '</span><h3>' + esc(lang() === "tr" ? "İyi gidiyorsun, " + name + "." : "Good work, " + name + ".") + '</h3><p>' + esc(lang() === "tr" ? "İlk beş iletiyi inceledin. İkinci bölümde hedefli mesajlar ve hesap güvenliği vakaları seni bekliyor." : "You reviewed the first five messages. Part two brings targeted messages and account-security cases.") + '</p><button type="button" class="btn btn-primary" id="outlook-part-continue">' + esc(lang() === "tr" ? "İkinci bölüme geç" : "Continue to part two") + ' →</button></div>';
     body.querySelector("#outlook-part-continue").addEventListener("click", function () {
