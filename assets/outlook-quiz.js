@@ -110,6 +110,7 @@
     });
   }
   function renderIfNeeded() {
+    if (body.querySelector(".outlook-shell")) return;
     var prompt = body.querySelector(".quiz-q");
     if (!prompt) return;
     var qText = prompt.textContent;
