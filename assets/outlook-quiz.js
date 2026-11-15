@@ -51,7 +51,7 @@
   var current = { index: -1, question: null };
   function esc(value) {
     return String(value == null ? "" : value).replace(/[&<>"']/g, function (ch) {
-      return { "&":"&amp;", "<":"&lt;", ">":"&gt;", """:"&quot;", "'":"&#39;" }[ch];
+      if (ch === "&") return "&amp;"; if (ch === "<") return "&lt;"; if (ch === ">") return "&gt;"; if (ch === "\"") return "&quot;"; return "&#39;";
     });
   }
   function profileName() {
