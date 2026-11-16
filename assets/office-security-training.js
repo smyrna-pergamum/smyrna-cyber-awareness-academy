@@ -1,6 +1,7 @@
 /* 30. eğitim: Ofiste Fiziksel Bilgi Güvenliği */
 (function () {
   "use strict";
+  var data = window.APP_DATA;
   var training = {
     id: "office-physical-security", cat: "culture", lvl: "beginner", min: 12, art: "shield",
     tr: {
@@ -88,6 +89,5 @@
       ]
     }
   };
-  data = window.APP_DATA;
   data.TRAININGS.push(training);
 })();
