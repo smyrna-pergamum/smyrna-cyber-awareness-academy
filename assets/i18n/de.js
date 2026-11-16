@@ -9,7 +9,7 @@ window.I18N.de = {
     heroTitle2: "Schicht der Cyber-Verteidigung.",
     heroLead: "30 kurze Schulungen zu Phishing, Passworthygiene, Social Engineering und Datenverantwortung. Vertiefen Sie jede Schulung mit einem Quiz, sammeln Sie XP und schalten Sie Badges frei.",
     heroCta: "Schulungen ansehen",
-    heroQuizCta: "Zufälliges Quiz",
+    heroQuizCta: "Trace It: Phishing-Inbox-Simulation",
     visualCaption: "Verteiltes Wissen · gemeinsame Verteidigung",
     statTrainings: "Schulungen",
     statTotalTime: "Gesamtdauer",
