@@ -89,5 +89,5 @@
       ]
     }
   };
-  data.TRAININGS.push(training);
+  data.TRAININGS.splice(Math.max(0, data.TRAININGS.length - 1), 0, training);
 })();

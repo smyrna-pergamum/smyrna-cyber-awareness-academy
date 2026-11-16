@@ -1180,6 +1180,13 @@
       if (detail.dataset.id) openQuiz(detail.dataset.id);
     });
 
+    $("#hero-quiz").addEventListener("click", function () {
+      var available = TRAININGS.filter(function (tr) { return loc(tr).q && loc(tr).q.length > 0; });
+      if (!available.length) return;
+      var selected = available[Math.floor(Math.random() * available.length)];
+      openQuiz(selected.id);
+    });
+
     $("#close-quiz").addEventListener("click", function () { quizDialog.close(); });
     $("#quiz-body").addEventListener("click", function (e) {
       var opt = e.target.closest("[data-opt]");
