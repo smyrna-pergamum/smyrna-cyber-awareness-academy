@@ -1181,10 +1181,7 @@
     });
 
     $("#hero-quiz").addEventListener("click", function () {
-      var available = TRAININGS.filter(function (tr) { return loc(tr).q && loc(tr).q.length > 0; });
-      if (!available.length) return;
-      var selected = available[Math.floor(Math.random() * available.length)];
-      openQuiz(selected.id);
+      openQuiz("phishing-inbox-simulation");
     });
 
     $("#close-quiz").addEventListener("click", function () { quizDialog.close(); });
