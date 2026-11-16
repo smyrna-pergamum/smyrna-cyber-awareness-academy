@@ -9,7 +9,7 @@ window.I18N.fr = {
     heroTitle2: "première ligne de cyberdéfense.",
     heroLead: "30 formations courtes sur le hameçonnage, l'hygiène des mots de passe, l'ingénierie sociale et la responsabilité des données. Consolidez chaque formation par un quiz, gagnez des XP et débloquez des badges.",
     heroCta: "Parcourir les formations",
-    heroQuizCta: "Quiz aléatoire",
+    heroQuizCta: "Trace It : simulation de boîte de réception",
     visualCaption: "Savoir distribué · défense collective",
     statTrainings: "Formations",
     statTotalTime: "Durée totale",
