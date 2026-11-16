@@ -9,6 +9,7 @@ window.I18N.es = {
     heroTitle2: "más sólida de la ciberdefensa.",
     heroLead: "30 formaciones breves sobre phishing, higiene de contraseñas, ingeniería social y responsabilidad de datos. Refuerce cada una con un cuestionario, gane XP y desbloquee insignias.",
     heroCta: "Ver las formaciones",
+    heroQuizCta: "Cuestionario aleatorio",
     visualCaption: "Conocimiento distribuido · defensa colectiva",
     statTrainings: "Formaciones",
     statTotalTime: "Tiempo total",
